@@ -228,3 +228,18 @@ h1{
     
     
 }
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+
+.correct {
+    box-shadow: 0 3px 4px 0 green;
+    opacity: 1.0;
+  }
+
+.wrong {
+    box-shadow: 0 3px 4px 0 red;
+    opacity: 1.0;
+  }
