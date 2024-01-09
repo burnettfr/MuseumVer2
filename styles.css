@@ -38,41 +38,6 @@ https://colorhunt.co/palette/ffecd64cb9e73559e00f2167 */
     background-color: white;
 }
 
-/* Color palette b 
-https://colorhunt.co/palette/6096b493bfcfbdcdd6eee9da */
-
-.c1b{
-    color: #6096B4;
-}
-
-.c2b{
-    color: #93BFCF;
-}
-
-.c3b{
-    color: #BDCDD6;
-}
-
-.c4b{
-    color: #EEE9DA;
-}
-
-.bgc1b{
-    background-color: #6096B4;
-}
-
-.bgc2b{
-    background-color: #93BFCF;
-}
-
-.bgc3b{
-    background-color: #BDCDD6;
-}
-
-.bgc4b{
-    background-color: #EEE9DA;
-}
-
 .f1{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -223,10 +188,8 @@ h1{
     height: 40px;
 }
 
-.bgreen{
-    text-align-last: right;
-    
-    
+.width1{
+    width: 40px;
 }
 
 .pressed {
@@ -242,4 +205,8 @@ h1{
 .wrong {
     box-shadow: 0 3px 4px 0 red;
     opacity: 1.0;
-  }
+}
+
+.cent1{
+    text-align: end;
+}
