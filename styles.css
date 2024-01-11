@@ -48,6 +48,10 @@ https://colorhunt.co/palette/ffecd64cb9e73559e00f2167 */
     font-weight: 300;
 }
 
+.fsize{
+    font-size: 1.08rem;
+}
+
 
 #div1{
     display: flex;
