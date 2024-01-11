@@ -48,71 +48,38 @@ https://colorhunt.co/palette/ffecd64cb9e73559e00f2167 */
     font-weight: 300;
 }
 
-.w1{
-    width: 50vw;
-}
 
-.h1{
-    height: 20vh;
-}
-
-
-h1{
-    color: #FFECD6;
-    /*background-color: #3559E0;*/
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    margin: 0px 0px 5px 0px;
-}
-
-.h2{
-    color: #FFECD6;
-    background-color: #3559E0;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    margin: 0px;
-}
-
-.h2a{
-    color: #3559E0;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    margin: 0px;
-    text-align: center;
-}
-
-
-
-.center{
+#div1{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #3559E0;
     height: 100px;
     border-radius: 25px;
     margin-bottom: 25px;
 }
 
-.container1{
+.div1Margin1{
+    margin: 0px 0px 5px 0px;
+}
+
+.div1Margin2{
+    margin: 0px 0px 0px 0px;
+}
+
+#div2{
     display: grid;
     grid-template-rows: 30px auto;
     grid-template-columns: 2fr 1fr;
     gap: 10px;
 }
 
-.ch1{
-    /*background-color: #FFECD6;*/
+.div2Height{
     height: 30px;
 }
 
-.ch2{
-    background-color: #FFECD6;
-    border-radius: 15px;
-}
-
-.m1{
-    margin-left: 30px;
+.div2Align{
+    text-align: center;
 }
 
 .quest{
@@ -121,18 +88,14 @@ h1{
     grid-template-columns: 1fr 10fr 1fr;
 }
 
-.ans{
-    display: grid;
-    grid-template-rows: auto auto auto auto auto auto auto auto 
-                        auto auto auto auto 1fr;
-    grid-template-columns: 1fr 10fr;
+.borderRadius1{
+    border-radius: 15px;
 }
 
 .p1{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     color: #3559E0;
     background-color: white;
     border-radius: 10px;
@@ -140,6 +103,36 @@ h1{
     padding-bottom: 5px;
     padding-left: 5px;
 }
+
+
+
+
+
+
+.h2{
+    color: #FFECD6;
+    background-color: #3559E0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    /*margin: 0px;*/
+}
+
+
+
+.m1{
+    margin-left: 30px;
+}
+
+
+
+.ans{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto auto 
+                        auto auto auto auto 1fr;
+    grid-template-columns: 1fr 10fr;
+}
+
+
 
 .p2{
     font-family: 'Roboto', sans-serif;
