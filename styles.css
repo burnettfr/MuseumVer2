@@ -104,35 +104,12 @@ https://colorhunt.co/palette/ffecd64cb9e73559e00f2167 */
     padding-left: 5px;
 }
 
-
-
-
-
-
-.h2{
-    color: #FFECD6;
-    background-color: #3559E0;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    /*margin: 0px;*/
-}
-
-
-
-.m1{
-    margin-left: 30px;
-}
-
-
-
 .ans{
     display: grid;
     grid-template-rows: auto auto auto auto auto auto auto auto 
                         auto auto auto auto 1fr;
     grid-template-columns: 1fr 10fr;
 }
-
-
 
 .p2{
     font-family: 'Roboto', sans-serif;
@@ -154,6 +131,10 @@ https://colorhunt.co/palette/ffecd64cb9e73559e00f2167 */
     margin-left: 10px;
     margin-right: 10px;
     border-style: hidden;
+}
+
+.margin3{
+    margin-left: 30px;
 }
 
 .marright{
