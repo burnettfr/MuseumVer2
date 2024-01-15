@@ -18,6 +18,22 @@ https://colorhunt.co/palette/ffecd64cb9e73559e00f2167 */
     color: #0F2167;
 }
 
+.c6a{
+    color: #191D88;
+}
+
+.c7a{
+    color: #1450A3;
+}
+
+.c8a{
+    color: #337CCF;
+}
+
+.c9a{
+    color: #FFC436;
+}
+
 .bgc1a{
     background-color: #FFECD6;
 }
@@ -37,6 +53,24 @@ https://colorhunt.co/palette/ffecd64cb9e73559e00f2167 */
 .bgc5a{
     background-color: white;
 }
+
+.bgc6a{
+    background-color: #191D88;
+}
+
+.bgc7a{
+    background-color: #1450A3;
+}
+
+.bgc8a{
+    background-color: #337CCF;
+}
+
+.bgc9a{
+    background-color: #FFC436;
+}
+
+
 
 .f1{
     font-family: 'Roboto', sans-serif;
