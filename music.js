@@ -37,24 +37,24 @@ function songClick(id){
           snip1.play();
 
           document.querySelector("#song1p").addEventListener("click", function(){
-            // console.log(document.querySelectorAll("button")[i].innerText);
-            var bId = this.id;
-            console.log("You pressed button with ID: " + bId);
+            // var bId = this.id;
+            // console.log("You pressed button with ID: " + bId);
             snip1.pause();
-        });
+            });
 
-          setTimeout(function() {
-            snip1.pause();
-          }, 5000);
-          break;
-    
+          break
+
         case "song2":
           var snip2 = new Audio("Songs/Aint That Peculiar Snippet.mp3");
           snip2.play();
-          setTimeout(function() {
+
+          document.querySelector("#song2p").addEventListener("click", function(){
+            // var bId = this.id;
+            // console.log("You pressed button with ID: " + bId);
             snip2.pause();
-          }, 2000);
-          break;
+            });
+
+          break
 
         case "song3":
            var snip3 = new Audio("Songs/IWasMadeToLoveHer Snippet.mp3");
