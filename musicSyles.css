@@ -173,8 +173,10 @@ https://colorhunt.co/palette/ffecd64cb9e73559e00f2167 */
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1rem;
-    background-color: white;
-    color: #3559E0;
+    /*background-color: white;
+    color: #3559E0;*/
+    background-color: #3559E0;
+    color: #FFECD6;
     border-radius: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
