@@ -73,7 +73,7 @@ https://colorhunt.co/palette/ffecd64cb9e73559e00f2167 */
 #div2{
     display: grid;
     grid-template-rows: 30px auto;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1.2fr 2fr;
     gap: 10px;
 }
 
@@ -88,7 +88,7 @@ https://colorhunt.co/palette/ffecd64cb9e73559e00f2167 */
 .quest{
     display: grid;
     grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto 1fr;
-    grid-template-columns: 10fr 5fr 1fr;
+    grid-template-columns: 3fr 2fr 1fr;
 }
 
 .borderRadius1{
@@ -125,14 +125,14 @@ https://colorhunt.co/palette/ffecd64cb9e73559e00f2167 */
 .margin1{
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .margin2{
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     border-style: hidden;
 }
 
