@@ -118,7 +118,28 @@ function readAns(){
         }
     }
     document.querySelectorAll("#textChange")[0].innerText = "Number Correct: " + correctAns;
+    inCorrectAns = 9 - correctAns;
     /*console.log(correctAns);*/
+
+    
+
+    var myWindow = window.open("", "", "width=500,height=500, top=400, left=400");
+
+    myWindow.document.write("<style>html{background-color: green}</style>");
+    // myWindow.document.write("<style>h1{text-align: center}</style>");
+
+    myWindow.document.write("<h1 style = 'text-align: center'>Good News</h1>");
+    myWindow.document.write("<h1 style = 'text-align: center'>Lots of Opportunity to Improve</h1>");
+    myWindow.document.write("<h1 style = 'text-align: center; font-size: 10rem; margin: 0px'>&#128169</h1>");
+    myWindow.document.write("<h1 style = 'text-align: center; margin-top: 40px'>Number Correct: ");
+    myWindow.document.write(correctAns);
+    myWindow.document.write("</h1>");
+    myWindow.document.write("<h1 style = 'text-align: center'>Number Incorrect: ");
+    myWindow.document.write(inCorrectAns);
+    myWindow.document.write("</h1>");
+    
+    // var myWindow = window.open("popup1.html", "", "width=400,height=400, top=400, left=400");
+    // myWindow.document.write("<p>This is 'MsgWindow'. I am 200px wide and 100px tall!</p>");
 }
 
 function reset(){
