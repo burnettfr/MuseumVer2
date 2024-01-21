@@ -149,6 +149,11 @@ https://colorhunt.co/palette/ffecd64cb9e73559e00f2167 */
     margin-left: 20px;
 }
 
+.marleft2{
+    margin-left: 100px;
+    align-items: end;
+}
+
 .bottom{
     display: flex;
     align-items: center;
