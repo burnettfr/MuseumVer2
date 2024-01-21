@@ -3,35 +3,35 @@
 https://colorhunt.co/palette/ffecd64cb9e73559e00f2167 */
 
 .c1a{
-    color: #FFECD6;
+    color: #FFC436;
 }
 
 .c2a{
-    color: #4CB9E7;
+    color: #337CCF;
 }
 
 .c3a{
-    color: #3559E0;
+    color: #1450A3;
 }
 
 .c4a{
-    color: #0F2167;
+    color: #191D88;
 }
 
 .bgc1a{
-    background-color: #FFECD6;
+    background-color: #FFC436;
 }
 
 .bgc2a{
-    background-color: #4CB9E7;
+    background-color: #337CCF;
 }
 
 .bgc3a{
-    background-color: #3559E0;
+    background-color: #1450A3;
 }
 
 .bgc4a{
-    background-color: #0F2167;
+    background-color: #191D88;
 }
 
 .bgc5a{
@@ -100,7 +100,7 @@ https://colorhunt.co/palette/ffecd64cb9e73559e00f2167 */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #3559E0;
+    color: #1450A3;
     background-color: white;
     border-radius: 10px;
     padding-top: 5px;
@@ -119,7 +119,7 @@ https://colorhunt.co/palette/ffecd64cb9e73559e00f2167 */
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 2rem;
-    color: #3559E0;
+    color: #1450A3;
     margin: 0px 0px 0px 40px;
 }
 
@@ -160,8 +160,8 @@ https://colorhunt.co/palette/ffecd64cb9e73559e00f2167 */
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1rem;
-    color: #FFECD6;
-    background-color: #3559E0;
+    color: #FFC436;
+    background-color: #1450A3;
     border-radius: 10px;
     height: 40px;
 }
