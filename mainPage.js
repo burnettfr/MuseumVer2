@@ -9,6 +9,6 @@ function clickButton1(){
 
 function clickButton2(){
     console.log("Button 1 Clicked");
-    window.location.href = 'file:///C:/Gronkle/Engineering/Web%20Development/Museum/Ver2/index.html'
+    window.location.href = 'file:///C:/Gronkle/Engineering/Web%20Development/Museum/Ver2/reconstruction.html'
 
 }
