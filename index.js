@@ -10,6 +10,8 @@ document.querySelector("#button1").addEventListener("click", handleClick);
 
 document.querySelector("#button2").addEventListener("click", startOver);
 
+document.querySelector("#button3").addEventListener("click", welcome);
+
 function handleClick(){
     buttonNumber = 1;
     buttonAnimation(buttonNumber);
@@ -170,5 +172,10 @@ function buttonAnimation(buttonNumber) {
     myWindow.document.write("</h1>");
 
     myWindow.document.write("<button onclick='window.close()' style = 'margin-left: 120px; font-family: serif; color: black; font-size: 2.5rem; border-radius: 25px;'>Close Window</button>");
+ }
+
+ function welcome(){
+    window.location.href = 'file:///C:/Gronkle/Engineering/Web%20Development/Museum/Ver2/mainPage.html'
+
  }
 
