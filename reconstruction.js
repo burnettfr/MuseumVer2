@@ -124,7 +124,14 @@ function readAns(){
     percentCorrect = correctAns/9;
     console.log(percentCorrect);
 
-    popUp2(correctAns, inCorrectAns);
+    if (percentCorrect < 0.35)
+        popUp1(correctAns, inCorrectAns);
+    else if (percentCorrect < 0.65 )
+        popUp2(correctAns, inCorrectAns);
+    else if (percentCorrect < 0.99 )
+        popUp3(correctAns, inCorrectAns);
+    else
+        popUp4(correctAns, inCorrectAns);
 
     }
 
