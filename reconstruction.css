@@ -71,6 +71,20 @@ https://colorhunt.co/palette/ffecd64cb9e73559e00f2167 */
     margin: 0px 0px 0px 0px;
 }
 
+/*
+#div2{
+    display: grid;
+    grid-template-rows: 30px auto;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+
+
+.div2Height{
+    height: 30px;
+}
+*/
+
 #div2{
     display: grid;
     grid-template-rows: 30px auto;
@@ -80,6 +94,16 @@ https://colorhunt.co/palette/ffecd64cb9e73559e00f2167 */
 
 .div2Height{
     height: 30px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 10fr 1fr;
+}
+
+.div3Height{
+    height: 30px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
 }
 
 .div2Align{
