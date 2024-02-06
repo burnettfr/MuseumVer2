@@ -99,7 +99,7 @@ function songClick(id){
             break;
 
         case "song7":
-            var snip7 = new Audio("Songs/IWasMadeToLoveHer Snippet.mp3");
+            var snip7 = new Audio("Songs/What'sGoingOnSnippet.mp3");
             snip7.play();
 
             document.querySelector("#song7p").addEventListener("click", function(){
@@ -109,7 +109,7 @@ function songClick(id){
             break;
 
         case "song8":
-            var snip8 = new Audio("Songs/IWasMadeToLoveHer Snippet.mp3");
+            var snip8 = new Audio("Songs/My Girl Snippet.mp3");
             snip8.play();
 
             document.querySelector("#song8p").addEventListener("click", function(){
@@ -186,13 +186,13 @@ function startOver(){
 
 function readAns(){
     for (var i = 0; i < numberOfQuest; i++) {
-        if (i == 0 && document.querySelectorAll("input")[i].value == "I"){
+        if (i == 0 && document.querySelectorAll("input")[i].value == "J"){
             correctAns++;
             document.querySelectorAll("input")[i].classList.remove("wrong");
             document.querySelectorAll("input")[i].classList.add("correct");
             document.querySelectorAll("input")[i].disabled = true
         }
-        if (i == 0 && document.querySelectorAll("input")[i].value != "I"){
+        if (i == 0 && document.querySelectorAll("input")[i].value != "J"){
             document.querySelectorAll("input")[i].classList.add("wrong");
         }
 
@@ -226,13 +226,13 @@ function readAns(){
             document.querySelectorAll("input")[i].classList.add("wrong");
         }
 
-        if (i == 4 && document.querySelectorAll("input")[i].value == "J"){
+        if (i == 4 && document.querySelectorAll("input")[i].value == "K"){
             correctAns++;
             document.querySelectorAll("input")[i].classList.remove("wrong");
             document.querySelectorAll("input")[i].classList.add("correct");
             document.querySelectorAll("input")[i].disabled = true
         }
-        if (i == 4 && document.querySelectorAll("input")[i].value != "J"){
+        if (i == 4 && document.querySelectorAll("input")[i].value != "K"){
             document.querySelectorAll("input")[i].classList.add("wrong");
         }
 
@@ -256,53 +256,53 @@ function readAns(){
             document.querySelectorAll("input")[i].classList.add("wrong");
         }
 
-        if (i == 7 && document.querySelectorAll("input")[i].value == "I"){
+        if (i == 7 && document.querySelectorAll("input")[i].value == "L"){
             correctAns++;
             document.querySelectorAll("input")[i].classList.remove("wrong");
             document.querySelectorAll("input")[i].classList.add("correct");
             document.querySelectorAll("input")[i].disabled = true
         }
-        if (i == 7 && document.querySelectorAll("input")[i].value != "I"){
+        if (i == 7 && document.querySelectorAll("input")[i].value != "L"){
             document.querySelectorAll("input")[i].classList.add("wrong");
         }
 
-        if (i == 8 && document.querySelectorAll("input")[i].value == "I"){
+        if (i == 8 && document.querySelectorAll("input")[i].value == "J"){
             correctAns++;
             document.querySelectorAll("input")[i].classList.remove("wrong");
             document.querySelectorAll("input")[i].classList.add("correct");
             document.querySelectorAll("input")[i].disabled = true
         }
-        if (i == 8 && document.querySelectorAll("input")[i].value != "I"){
+        if (i == 8 && document.querySelectorAll("input")[i].value != "J"){
             document.querySelectorAll("input")[i].classList.add("wrong");
         }
 
-        if (i == 9 && document.querySelectorAll("input")[i].value == "I"){
+        if (i == 9 && document.querySelectorAll("input")[i].value == "J"){
             correctAns++;
             document.querySelectorAll("input")[i].classList.remove("wrong");
             document.querySelectorAll("input")[i].classList.add("correct");
             document.querySelectorAll("input")[i].disabled = true
         }
-        if (i == 9 && document.querySelectorAll("input")[i].value != "I"){
+        if (i == 9 && document.querySelectorAll("input")[i].value != "J"){
             document.querySelectorAll("input")[i].classList.add("wrong");
         }
 
-        if (i == 10 && document.querySelectorAll("input")[i].value == "I"){
+        if (i == 10 && document.querySelectorAll("input")[i].value == "J"){
             correctAns++;
             document.querySelectorAll("input")[i].classList.remove("wrong");
             document.querySelectorAll("input")[i].classList.add("correct");
             document.querySelectorAll("input")[i].disabled = true
         }
-        if (i == 10 && document.querySelectorAll("input")[i].value != "I"){
+        if (i == 10 && document.querySelectorAll("input")[i].value != "J"){
             document.querySelectorAll("input")[i].classList.add("wrong");
         }
 
-        if (i == 11 && document.querySelectorAll("input")[i].value == "I"){
+        if (i == 11 && document.querySelectorAll("input")[i].value == "J"){
             correctAns++;
             document.querySelectorAll("input")[i].classList.remove("wrong");
             document.querySelectorAll("input")[i].classList.add("correct");
             document.querySelectorAll("input")[i].disabled = true
         }
-        if (i == 11 && document.querySelectorAll("input")[i].value != "I"){
+        if (i == 11 && document.querySelectorAll("input")[i].value != "J"){
             document.querySelectorAll("input")[i].classList.add("wrong");
         }
     }
